@@ -127,11 +127,11 @@ Step 4: Run Dromedary
 
 Open ``terminal`` and launch Dromedary Studio with the following command
 
-   ::
+::
 
     wine DromedaryStudio.exe
 
-   Dromedary Studio should open in a window.
+Dromedary Studio should open in a window.
 
 Step 5: (Optional) Add dock icon
 --------------------------------
