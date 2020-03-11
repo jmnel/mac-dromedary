@@ -28,32 +28,32 @@ Homebrew is the easiest way to install Wine on Mac. Follow these steps:
    this installed. This will take some time to download and install depending on 
    your internet speed, so be patient. Install it with:
 
-    ::
+   ::
 
         xcode-select --install
 
 #. Copy and paste the following line into your terminal, and hit ``ENTER``.
    
-    ::
+   ::
 
         /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
 #. Once Homebrew is installed, close ``Terminal`` and relaunch it. Homebrew will tell you
-   to run ``brew doctor``. Do this now. This will check your for issues with your
+   to run ``brew doctor``. Do this now. This will check for issues with your
    installation and suggest fixes.
 
-    ::
+   ::
         
         brew doctor
 
-#. Homebrew might tell you to that you need to accept the a license for ``Xcode``. Do
+#. Homebrew might tell you to that you need to accept the license for ``Xcode``. Do
    so with this command.
 
-    ::
+   ::
         
         sudo xcodebuild -license
 
-#. Run ``brew doctor`` one final time to verify that Homebrew is raedy.
+#. Run ``brew doctor`` one final time to verify that Homebrew is ready.
 
    ::
 
@@ -91,7 +91,7 @@ Hang in there we are almost done.
 #. ``mono`` is a open source implementation of Microsoft's .NET Framework. Install it
    now.
 
-    ::
+   ::
 
         brew install mono
 
@@ -112,7 +112,7 @@ Hang in there we are almost done.
         wine setup.exe
 
    The regular Windows graphical installer will pop up for Dromedary Studio. Accept the
-   license agreement and install to the default location. **You will see two error messsages
+   license agreement and install to the default location. **You will see two error messages
    just click ``Ok`` to ignore them.***
 
 #. Locate ``pathfix.reg`` file. You will need to import into Wine's Windows registry.
@@ -127,7 +127,7 @@ Step 4: Run Dromedary
 
 Open ``terminal`` and launch Dromedary Studio with the following command
 
-    ::
+   ::
 
         wine DromedaryStudio.exe
 
