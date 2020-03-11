@@ -136,5 +136,5 @@ Dromedary Studio should open in a window.
 Step 5: (Optional) Add dock icon
 --------------------------------
 
-Included in this directory you will find a Apple Script ``Dromedary Studio.app``.
+Included in this directory you will find a AppleScript ``Dromedary Studio.app``.
 Drag this file to your dock to simplify launching Dromedary Studio.
