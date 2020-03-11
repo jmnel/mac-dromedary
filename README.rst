@@ -129,7 +129,7 @@ Open ``terminal`` and launch Dromedary Studio with the following command
 
    ::
 
-        wine DromedaryStudio.exe
+    wine DromedaryStudio.exe
 
    Dromedary Studio should open in a window.
 
