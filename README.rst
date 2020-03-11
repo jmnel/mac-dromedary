@@ -113,7 +113,7 @@ Hang in there we are almost done.
 
    The regular Windows graphical installer will pop up for Dromedary Studio. Accept the
    license agreement and install to the default location. **You will see two error messages
-   just click ``Ok`` to ignore them.***
+   just click Ok to ignore them.**
 
 #. Locate ``pathfix.reg`` file. You will need to import into Wine's Windows registry.
 
